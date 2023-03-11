@@ -1,0 +1,84 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="75" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="enctype" />
+            <item index="1" class="java.lang.String" itemvalue="type" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="7">
+            <item index="0" class="java.lang.String" itemvalue="nobr" />
+            <item index="1" class="java.lang.String" itemvalue="noembed" />
+            <item index="2" class="java.lang.String" itemvalue="comment" />
+            <item index="3" class="java.lang.String" itemvalue="noscript" />
+            <item index="4" class="java.lang.String" itemvalue="embed" />
+            <item index="5" class="java.lang.String" itemvalue="script" />
+            <item index="6" class="java.lang.String" itemvalue="hr2" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyCompatibilityInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ourVersions">
+        <value>
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="3.9" />
+            <item index="1" class="java.lang.String" itemvalue="3.11" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="4">
+            <item index="0" class="java.lang.String" itemvalue="Django" />
+            <item index="1" class="java.lang.String" itemvalue="pytz" />
+            <item index="2" class="java.lang.String" itemvalue="sqlparse" />
+            <item index="3" class="java.lang.String" itemvalue="async-translate-1.1.2" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="models.Recipe.objects" />
+          <option value="models.Tag.objects" />
+          <option value="models.Ingredient.objects" />
+          <option value="models.Favorite.objects" />
+          <option value="models.ShoppingCart.objects" />
+          <option value="models.IngredientRecipe.objects" />
+          <option value="models.Follow.objects" />
+          <option value="recipes.models.Follow.objects" />
+          <option value="recipes.models.Tag.objects" />
+          <option value="recipes.models.Favorite.objects" />
+          <option value="recipes.models.ShoppingCart.objects" />
+          <option value="recipes.models.IngredientRecipe.objects" />
+          <option value="recipes.models.Ingredient.objects" />
+          <option value="recipes.models.Recipe.objects" />
+          <option value="tgbot_template.tgbot.filters.admin.*" />
+          <option value="dict.get_jobs" />
+          <option value="dict.remove_job" />
+          <option value="object.print_jobs" />
+          <option value="object.add_job" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
